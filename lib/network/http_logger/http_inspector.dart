@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:shake/shake.dart';
 
 class HttpInspector {
+  //TEST
   Interceptor get interceptor => _alice.getDioInterceptor();
   final _alice = Alice();
 
